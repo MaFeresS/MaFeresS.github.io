@@ -3,11 +3,74 @@
     <head>
         <title>MaFeresS</title>
         <!--tentative title, waiting for further info-->
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Matias Feres S.</h1>
+        <h1 class="ttl">Matías Feres S.</h1>
         <!--tentative h1, waiting for further info-->
         <hr>
-        
+        <p>
+            Matías Feres is a currently a student enrolled in <a href="https://en.wikipedia.org/wiki/University_of_the_Andes,_Chile" target="_blank">UANDES</a> studying computational engineering since the year 2022.
+        </p>
+        <h3 class="ttl"><span >Skills</span></h3>
+        <table class="bord">
+            <tr>
+                <th class="ttl">Skill:</th>
+                <td>|</td>
+                <th class="ttl">Level:</th>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>|</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>|</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>C/C++</td>
+                <td>|</td>
+                <td>Regular</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>|</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+                <td>|</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>|</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>|</td>
+                <td>Fluent</td>
+            </tr>
+            <tr>
+                <td>Spanish</td>
+                <td>|</td>
+                <td>Native</td>
+            </tr>
+        </table>
+        <br>
+        <a href="https://github.com/MaFeresS">Github account</a>
+        <br>
+        <br>
+        <input type="text" id="in">
+        <button onclick="disp()">Display</button>
+        <p id="out" class="outxt">Hello World!</p>
+        <script>
+            function disp(){
+                document.getElementById("out").innerHTML = document.getElementById("in").value;
+            }
+        </script>
     </body>
 </html>
