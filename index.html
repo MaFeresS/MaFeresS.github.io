@@ -9,11 +9,22 @@
         <h1 class="ttl">Matías Feres S.</h1>
         <!--tentative h1, waiting for further info-->
         <hr>
+        <a href="https://github.com/MaFeresS" target="_blank">Github account</a>
         <p>
-            Matías Feres is a currently a student enrolled in <a href="https://en.wikipedia.org/wiki/University_of_the_Andes,_Chile" target="_blank">UANDES</a> studying computational engineering since the year 2022.
+            I'am currently, and since the year 2022, a student enrolled in <a href="https://en.wikipedia.org/wiki/University_of_the_Andes,_Chile" target="_blank">UANDES</a> for a career in computational engineering, when not studying or making code for homework I tend to use my time in personal coding or coding adyacent proyects or playing either pen and paper or video games. An example of both activities would be my current proyect of a <a href="https://en.wikipedia.org/wiki/Tabletop_role-playing_game" target="_blank">TTRPG</a> system made from the ground up.
         </p>
-        <h3 class="ttl"><span >Skills</span></h3>
-        <table class="bord">
+        <p>
+            As far as interests, they are rather varied, but often connected, like my love for machines and history comming together in old machines, like steam engines.
+        </p>
+        <a href="https://en.wikipedia.org/wiki/The_Glenbrook" target="_blank">
+            <img class="bord cnt" src="images/Glenbrook 2-6-0.jpg" alt="Picture of 2-6-0 Locomotive 'Glenbrook'">
+        </a>
+        <br>
+        <h4 class="ttl cnt txtcnt">Example image: 'Glenbrook' 2-6-0 Mogul type locomotive</h4>
+        <br>
+        <br>
+        <h3 class="ttl cnt txtcnt"><span >Skills</span></h3>
+        <table class="bord tcnt">
             <tr>
                 <th class="ttl">Skill:</th>
                 <td>|</td>
@@ -59,17 +70,33 @@
                 <td>|</td>
                 <td>Native</td>
             </tr>
+            <tr>
+                <td>Math</td>
+                <td>|</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Art</td>
+                <td>|</td>
+                <td>Basic</td>
+            </tr>
         </table>
         <br>
-        <a href="https://github.com/MaFeresS">Github account</a>
         <br>
-        <br>
+        <h5 class="ttl txtcnt">Example of coding skills</h5>
+        <!--More of a couple JS functions-->
+        <div class="cnt txtcnt">
         <input type="text" id="in">
         <button onclick="disp()">Display</button>
+        <button onclick="reset()">Reset</button>
         <p id="out" class="outxt">Hello World!</p>
+        </div>
         <script>
             function disp(){
-                document.getElementById("out").innerHTML = document.getElementById("in").value;
+                document.getElementById("out").innerHTML=document.getElementById("in").value;
+            }
+            function reset(){
+                document.getElementById("out").innerHTML="Hello World!";
             }
         </script>
     </body>
