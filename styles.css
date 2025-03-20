@@ -3,7 +3,9 @@
     --bs-accordion-active-bg: #7280DA;
     --bs-accordion-btn-focus-shadow: none;
     --bs-accordion-bg: #2C2F33;
+    --bs-accordion-border-radius: 10px;
     --bs-accordion-color: #FFFDD0;
+    --bs-accordion-active-color: #FFFDD0;
 }
 
 body{
