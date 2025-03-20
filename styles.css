@@ -11,6 +11,14 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.accordion{
+    --bs-accordion-btn-bg: #2C2F33;
+    --bs-accordion-active-bg: #7280DA;
+    --bs-accordion-btn-focus-shadow: none;
+    --bs-accordion-bg: #2C2F33;
+    --bs-accordion-color: #FFFDD0;
+}
+
 .outxt{
     color: #7280DA;
     font-family: Georgia, Helvetica, sans-serif;
